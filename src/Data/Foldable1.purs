@@ -6,6 +6,7 @@ import Data.Monoid.Dual (Dual(..))
 import Data.Monoid.Endo (Endo(..))
 import Data.Newtype (unwrap)
 
+class Foldable1 ∷ ∀ k. ((k → Type) → Type) → Constraint
 class Foldable1 t where
   foldMap1 ∷ ∀ f m. Monoid m ⇒ (∀ a. f a → m) → t f → m
 

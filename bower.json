@@ -1,10 +1,9 @@
 {
   "name": "purescript-functor1",
-  "homepage": "https://github.com/garyb/purescript-functor1",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/garyb/purescript-functor1.git"
+    "url": "https://github.com/garyb/purescript-functor1.git"
   },
   "ignore": [
     "**/.*",
@@ -16,7 +15,7 @@
     "package.json"
   ],
   "dependencies": {
-    "purescript-prelude": "^4.1.0",
-    "purescript-newtype": "^3.0.0"
+    "purescript-prelude": "^5.0.0",
+    "purescript-newtype": "^4.0.0"
   }
 }
