@@ -1,7 +1,7 @@
 # purescript-functor1
 
 [![Latest release](http://img.shields.io/github/release/garyb/purescript-functor1.svg)](https://github.com/garyb/purescript-functor1/releases)
-[![Build Status](https://travis-ci.com/garyb/purescript-functor1.svg?branch=master)](https://travis-ci.com/garyb/purescript-functor1)
+![Build Status](https://github.com/garyb/purescript-functor1/actions/workflows/ci.yml/badge.svg)
 
 Functor (and related) classes for types of kind `(Type -> Type) -> Type`.
 
