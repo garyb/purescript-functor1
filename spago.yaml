@@ -1,0 +1,14 @@
+package:
+  name: functor1
+  build:
+    strict: true
+  publish:
+    version: 3.0.1
+    license: MIT
+    location:
+      githubOwner: garyb
+      githubRepo: purescript-functor1
+  dependencies:
+    - newtype: ">=5.0.0 <6.0.0"
+    - prelude: ">=6.0.0 <7.0.0"
+workspace: {}

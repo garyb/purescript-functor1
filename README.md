@@ -8,7 +8,7 @@ Functor (and related) classes for types of kind `(Type -> Type) -> Type`.
 ## Installation
 
 ```
-bower install purescript-functor1
+spago install functor1
 ```
 
 ## Documentation
